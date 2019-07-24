@@ -32,10 +32,16 @@ public class ImguiScreen extends Screen {
     }
     @Override
     public void render(int x, int y, float partialTicks) {
+        System.out.println("110111111111111111111111111111");
 
         implGl3.newFrame();
+        System.out.println("000111111111111111111111111111");
+
         implGlfw.newFrame();
+        System.out.println("00011111111112222222222222222222222");
+
         imgui.newFrame();
+        System.out.println("220111111111111111111111111111");
 
         drawGui(x, y, partialTicks);
 

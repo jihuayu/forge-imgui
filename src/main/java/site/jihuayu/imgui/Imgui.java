@@ -1,5 +1,7 @@
 package site.jihuayu.imgui;
 
+import imgui.impl.ImplGL3;
+import imgui.impl.ImplGlfw;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.util.InputMappings;
 import net.minecraft.util.text.StringTextComponent;
@@ -16,7 +18,6 @@ import site.jihuayu.imgui.screen.ImguiScreen;
 @Mod("imgui")
 public class Imgui {
     private static final Logger LOGGER = LogManager.getLogger();
-
     public Imgui() {
         MinecraftForge.EVENT_BUS.register(this);
     }
