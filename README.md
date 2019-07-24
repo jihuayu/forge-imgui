@@ -19,3 +19,4 @@ use imgui in mc with forge.
 ## something others
 - my English is terrible.
 - my code is also terrible.
+- if you have any question you can send email to me, or open a issue.I am glad to help you.
