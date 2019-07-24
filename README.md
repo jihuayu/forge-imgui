@@ -1,13 +1,13 @@
 # ImGui
 use imgui in mc with forge.
 
-## I use:
+## environment
 - mc-version:1.14.4
 - forge-version:1.14.4-28.0.13
 - java and kotlin
 - idea
 
-## show
+## demo
 ![](pics/show1.png)
 ![](pics/show2.gif)
 
